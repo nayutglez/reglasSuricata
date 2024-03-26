@@ -1,3 +1,1 @@
-alert udp any any <> any 53 (msg: "Possible DNS Exfiltration activity v2" ;
-sid:7000002 ; dsize:>200;threshold: type threshold, track by_both, count 10,
-seconds 5;)
+alert udp any any <> any 53 (msg: "Possible DNS Exfiltration activity v2" ;sid:7000002 ; dsize:>200;threshold: type threshold, track by_both, count 10, seconds 5;)
